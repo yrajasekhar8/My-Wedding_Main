@@ -20,7 +20,7 @@
 /* Responsive nav kicks in */
 @media screen and (max-width: 991px) {
     header {
-        width: 90%;
+        width: 95%;
         padding-left: 25px;
     }
 
