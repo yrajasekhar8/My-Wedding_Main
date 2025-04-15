@@ -434,7 +434,14 @@ section .header {
     color: white;
     text-shadow: 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white; /* Fake Bold */
   }
-
+  .custom-text-in  {
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white; /*Fake Bold*/
+    display: inline-block;
+    height: 19px
+  }
 .heart-symbol {
   color: red; /* Match the heart color */
   font-size: 1em; /* Adjust the heart size relative to the text */
