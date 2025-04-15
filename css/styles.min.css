@@ -409,7 +409,7 @@ section .header {
 .hero {
     position: relative;
     min-height: 750px;
-    background: url("../img/hero_sekhar.JPG") center center;
+    background: url("/My-Wedding_Main/img/hero_sekhar.JPG") center center;
     background-size: cover;
 }
 
