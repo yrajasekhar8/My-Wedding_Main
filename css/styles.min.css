@@ -407,8 +407,9 @@ section .header {
 }
 .hero {
     min-height: 750px;
+    position: relative;
+    overflow: hidden;
     background: url("/My-Wedding_Main/img/hero_sekhar.JPG") center center;
-    background-size: cover;
 }
 
 .hero::after {
@@ -427,7 +428,18 @@ section .header {
     z-index: 1;
     padding-top: 40%;
 }
+.custom-text  {
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
+    color: white;
+    text-shadow: 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white; /* Fake Bold */
+  }
 
+.heart-symbol {
+  color: red; /* Match the heart color */
+  font-size: 1em; /* Adjust the heart size relative to the text */
+  line-height: 1; /* Adjust line height for better vertical alignment */
+}
 
 .hero .down-arrow a {
     color: #fff
