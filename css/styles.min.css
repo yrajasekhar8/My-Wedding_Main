@@ -406,7 +406,7 @@ section .header {
     transition: all 300ms ease-in-out
 }
 .hero {
-    min-height: 450px;
+    min-height: 750px;
     position: relative;
     overflow: hidden;
     background: url("/My-Wedding_Main/img/hero_sekhar.JPG") center center;
@@ -428,17 +428,7 @@ section .header {
     z-index: 1;
     padding-top: 40%;
 }
-.custom-text  {
-    font-family: 'Great Vibes', cursive;
-    font-size: 60px;
-    color: #E91E63;
-  }
 
-.heart-symbol {
-  color: red; /* Match the heart color */
-  font-size: 1em; /* Adjust the heart size relative to the text */
-  line-height: 1; /* Adjust line height for better vertical alignment */
-}
 
 .hero .down-arrow a {
     color: #fff
