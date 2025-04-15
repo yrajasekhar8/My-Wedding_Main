@@ -405,30 +405,30 @@ section .header {
     visibility: hidden;
     transition: all 300ms ease-in-out
 }
-
 .hero {
-    position: relative;
     min-height: 750px;
-    background: url("../img/hero_sekhar.JPG") center center;
-    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    background: url("/My-Wedding_Main/img/hero_sekhar.JPG") center center;
 }
 
-.hero::before {
+.hero::after {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.5);  /* Adjust 0.5 to make it lighter or darker */
-    z-index: 1;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);  /* light dark overlay */
+    z-index: 0;
 }
 
 .hero .hero-content {
     position: relative;
-    z-index: 2; /* Make sure your text stays above the dark overlay */
+    z-index: 1;
     padding-top: 40%;
 }
+
 
 .hero .down-arrow a {
     color: #fff
